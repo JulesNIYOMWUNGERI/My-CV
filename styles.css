@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Poppins, sans-serif;
+}
+
+nav{
+    width: 100%;
+    background-color:rgb(178, 249, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+}
+
+@media only screen and (min-width:910px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3% 11%;
+    }
+
+    .avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 150px;
+    }
+}
+
+@media only screen and (max-width:910px){
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 3% 11%;
+    }
+
+    .avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media only screen and (min-width:550px){
+    .header h1{
+        font-weight: 900;
+        font-size: 32px;
+        font-style: normal;
+        color: #000000;
+    }
+    .header h2{
+        font-weight: 500;
+        font-size: 30px;
+        font-style: normal;
+        color: #000000;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .header h1{
+        font-weight: 900;
+        font-size: 20px;
+        font-style: normal;
+        color: #000000;
+    }
+    .header h2{
+        font-weight: 500;
+        font-size: 18px;
+        font-style: normal;
+        color: #000000;
+    }
+}
+
+
+.home{
+    background-color:rgb(228, 255, 255);
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width:1100px){
+    .wraper{
+        width: full;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 8.5%;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .wraper{
+        width: full;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        padding: 40px 8.5%;
+        gap: 10px;
+    }
+}
+
+
+.right{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.first{
+    width: full;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right h6{
+    color: #00000070;
+    letter-spacing: 4px;
+}
+
+.experiance{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experiance1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    letter-spacing: 1px;
+}
+
+.experiance1 p{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (min-width:1100px){
+    .left{
+        width: 40%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .left{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+}
+
+.leftall{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left1 h3{
+    color: #000000a7;
+}
+
+.left1 p{
+    color: #00000083;
+}
+
+.tools{
+    width: 50%;
+    height: auto;
+    line-height: 30px;
+}
