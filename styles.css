@@ -29,14 +29,14 @@ nav{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 3% 11%;
+        padding: 1% 11%;
     }
 
     .avatar{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
-        margin-right: 150px;
+        margin-right: 180px;
     }
 }
 
@@ -176,6 +176,7 @@ nav{
         flex-direction: column;
         padding: 20px;
         gap: 30px;
+        
     }
 }
 
@@ -186,6 +187,18 @@ nav{
         display: flex;
         flex-direction: column;
         padding: 20px;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .left{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-right: 40px;
         gap: 30px;
     }
 }
@@ -215,4 +228,15 @@ nav{
     width: 50%;
     height: auto;
     line-height: 30px;
+}
+
+.SocialMedia a{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.SocialMedia p:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
